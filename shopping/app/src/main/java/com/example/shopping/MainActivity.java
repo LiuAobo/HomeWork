@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 public void onClick(View v) {
                     addToCart(info.rowid);
                     Toast.makeText(MainActivity.this,
-                            "已添加一部" + info.name + "到购物车", Toast.LENGTH_SHORT).show();
+                            "已添加一件" + info.name + "到购物车", Toast.LENGTH_SHORT).show();
                 }
             });
             ll_bottom.addView(btn_add);

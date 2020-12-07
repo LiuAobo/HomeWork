@@ -11,6 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".TabFragmentActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name=".ToolbarActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
             android:name=".BannerTopActivity"
             android:exported="true"
             android:theme="@style/AppCompatTheme" />
@@ -45,10 +53,7 @@
             android:name=".OverflowMenuActivity"
             android:exported="true"
             android:theme="@style/AppCompatTheme" />
-        <activity
-            android:name=".ToolbarActivity"
-            android:exported="true"
-            android:theme="@style/AppCompatTheme" />
+
         <activity
             android:name=".ToolbarCustomActivity"
             android:exported="true"
